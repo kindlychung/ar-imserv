@@ -1,0 +1,7 @@
+html
+  head
+    title=title
+  body
+    form(ref="uploadForm", id="uploadForm", action="/rotate", method="post", encType="multipart/form-data")
+      input(type="file", name="sampleFile")
+      input(type="submit", name="Upload")
